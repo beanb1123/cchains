@@ -1,4 +1,4 @@
-[
+let chains = [
   {
     rpc: "https://rpc-cosmoshub.keplr.app",
     rest: "https://lcd-cosmoshub.keplr.app",
@@ -1773,4 +1773,9 @@
     features: ["ibc-transfer", "ibc-go"],
     hideInUI: true,
   },
-]
+];
+
+let good = JSON.strngify(chains);
+
+console.log(good);
+
